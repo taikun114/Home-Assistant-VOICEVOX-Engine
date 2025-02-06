@@ -9,6 +9,7 @@ arch:
   - "aarch64"
   - "amd64"
 boot: "auto"
+image: taikun114/voicevox_engine_addon-{arch}
 ports:
   "50021/tcp": 50021
 webui: "http://[HOST]:[PORT:50021]"
