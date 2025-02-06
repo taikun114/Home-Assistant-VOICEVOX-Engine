@@ -9,7 +9,7 @@ Using it with [VOICEVOX TTS](https://github.com/taikun114/VOICEVOX-TTS-for-Home-
 ## Install
 >[!NOTE]
 >Home Assistant OS or Home Assistant Supervised is required to run add-ons.
->If you are running Home Assistant Core or Home Assistant Containerd, you cannot use add-ons.
+>If you are running Home Assistant Core or Home Assistant Container, you cannot use add-ons.
 
 To install the VOICEVOX Engine Addon, you will need to add a repository. Click the button below or add the repository manually.
 
