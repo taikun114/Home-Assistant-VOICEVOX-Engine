@@ -1,0 +1,15 @@
+configuration:
+  cpu_threads:
+    name: CPU Threads
+    description: Number of CPU threads to use for voice synthesis. Set 0 to use the default value.
+  use_max_cpu_threads:
+    name: Use Max CPU Threads
+    description: If enabled ignores the "CPU Threads" option and uses the maximum number of available CPU threads for voice synthesis.
+  allow_origin:
+    name: Allow Origins
+    description: Specify the origins to allow.
+  cors_policy:
+    name: CORS Policy Mode
+    description: Select the CORS policy mode.
+network:
+  50021/tcp: VOICEVOX Engine API

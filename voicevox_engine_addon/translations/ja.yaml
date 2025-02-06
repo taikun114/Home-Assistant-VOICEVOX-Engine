@@ -1,0 +1,15 @@
+configuration:
+  cpu_threads:
+    name: CPUスレッド数
+    description: 音声合成に使用するCPUスレッド数。0に設定するとデフォルト値を使用します。
+  use_max_cpu_threads:
+    name: 最大CPUスレッド数を使用する
+    description: 有効にすると「CPUスレッド数」オプションを無視し、利用可能な最大CPUスレッド数を使用して音声合成を行います。
+  allow_origin:
+    name: 許可するオリジン
+    description: 許可するオリジンを指定します。
+  cors_policy:
+    name: CORSの許可モード
+    description: CORSの許可モードを選択します。
+network:
+  50021/tcp: VOICEVOXエンジン API
