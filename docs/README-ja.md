@@ -9,7 +9,7 @@
 ## インストール
 >[!NOTE]
 >アドオンの実行にはHome Assistant OSまたはHome Assistant Supervisedが必要です。
->Home Assistant CoreまたはHome Assistant Containerdを実行している場合はアドオンを使用することはできません。
+>Home Assistant CoreまたはHome Assistant Containerを実行している場合はアドオンを使用することはできません。
 
 VOICEVOX Engine Addonをインストールするには、リポジトリを追加する必要があります。以下のボタンをクリックするか、手動でリポジトリを追加してください。
 
