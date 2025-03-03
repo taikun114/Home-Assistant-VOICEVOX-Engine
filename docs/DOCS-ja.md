@@ -26,7 +26,7 @@ VOICEVOX Engine Addonをインストールするには、リポジトリを追�
 
 アドオンのインストールが終わったら`開始`をクリックすると、デフォルトの設定でVOICEVOX エンジンが起動します。
 
-> [!TIPS]
+> [!TIP]
 > リポジトリURLの最後に`#dev`を追加する（`https://github.com/taikun114/Home-Assistant-VOICEVOX-Engine#dev`）か、以下のボタンをクリックすることで、開発バージョンのアドオンをインストールすることができます。
 >
 > [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Ftaikun114%2FHome-Assistant-VOICEVOX-Engine%23dev)
