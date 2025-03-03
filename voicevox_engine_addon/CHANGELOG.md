@@ -1,5 +1,5 @@
-**English** | [日本語](https://github.com/taikun114/Home-Assistant-VOICEVOX-Engine/blob/main/docs/CHANGELOG-ja.md)
 # VOICEVOX Engine Addon (Dev) Changelog
+**English** | [日本語](https://github.com/taikun114/Home-Assistant-VOICEVOX-Engine/blob/dev/docs/CHANGELOG-ja.md)
 
 ## 0.1.1
 - Changed to provide pre-built containers

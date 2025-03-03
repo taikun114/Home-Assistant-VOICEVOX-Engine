@@ -1,5 +1,5 @@
 # Home Assistant VOICEVOX Engine Addon (Dev)
-**English** | [日本語](https://github.com/taikun114/Home-Assistant-VOICEVOX-Engine/blob/main/docs/DOCS-ja.md)
+**English** | [日本語](https://github.com/taikun114/Home-Assistant-VOICEVOX-Engine/blob/dev/docs/DOCS-ja.md)
 
 This is an add-on to run the Japanese text-to-speech engine [VOICEVOX Engine](https://github.com/VOICEVOX/voicevox_engine) in Home Assistant.
 
