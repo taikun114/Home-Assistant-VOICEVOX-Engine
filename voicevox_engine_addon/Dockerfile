@@ -19,7 +19,7 @@ RUN apt-get update \
     cmake \
     && rm -rf /var/lib/apt/lists/*
 
-ENV VERSION=0.22.2
+ENV VERSION=0.23.0
 ENV INSTALL_DIR="/voicevox_engine"
 
 RUN wget "https://raw.githubusercontent.com/VOICEVOX/voicevox_engine/refs/tags/$VERSION/requirements.txt" -O /requirements.txt
