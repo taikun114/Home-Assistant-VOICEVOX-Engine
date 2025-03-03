@@ -26,8 +26,19 @@ RUN wget "https://raw.githubusercontent.com/VOICEVOX/voicevox_engine/refs/tags/$
 
 RUN python3 -m pip install -r /requirements.txt
 
-RUN wget "https://github.com/VOICEVOX/voicevox_engine/releases/download/$VERSION/voicevox_engine-linux-cpu-$VERSION.7z.001" -O /voicevox_engine.7z.001 \
-    && 7z x /voicevox_engine.7z.001 -o$INSTALL_DIR
+RUN /bin/bash -c 'set -ex && \
+    ARCH=$(uname -m) && \
+    if [ "$ARCH" == "x86_64" ]; then \
+        wget "https://github.com/VOICEVOX/voicevox_engine/releases/download/$VERSION/voicevox_engine-linux-cpu-x64-$VERSION.7z.001" -O /voicevox_engine.7z.001 \
+        && 7z x /voicevox_engine.7z.001 -o$INSTALL_DIR; \
+    elif [ "$ARCH" == "aarch64" ]; then \
+        wget "https://github.com/VOICEVOX/voicevox_engine/releases/download/$VERSION/voicevox_engine-linux-cpu-arm64-$VERSION.7z.001" -O /voicevox_engine.7z.001 \
+        && 7z x /voicevox_engine.7z.001 -o$INSTALL_DIR; \
+    else \
+        echo "$ARCH is unsupported architecture"; \
+        return -1; \
+    fi'
+
 
 RUN ln -s /root/.local/share /data
 
