@@ -1,5 +1,5 @@
-version: "0.1.1"
 name: "VOICEVOX Engine Addon (Dev)"
+version: "1.0.0-b1"
 slug: "voicevox_engine_addon"
 description: "VOICEVOX Engine for Home Assistant"
 url: https://github.com/taikun114/Home-Assistant-VOICEVOX-Engine
