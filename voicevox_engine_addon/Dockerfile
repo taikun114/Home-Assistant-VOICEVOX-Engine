@@ -14,9 +14,6 @@ RUN apt-get update \
     wget \
     git \
     build-essential \
-    libssl-dev \
-    libffi-dev \
-    cmake \
     && rm -rf /var/lib/apt/lists/*
 
 ENV VERSION=0.23.0
