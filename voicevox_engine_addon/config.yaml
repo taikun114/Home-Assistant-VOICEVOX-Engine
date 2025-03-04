@@ -14,7 +14,7 @@ ports:
   "50021/tcp": 50021
 webui: "http://[HOST]:[PORT:50021]"
 stage: experimental
-options: 
+options:
   cpu_threads: 0
   use_max_cpu_threads: false
   allow_origin: []
@@ -22,6 +22,6 @@ options:
 schema:
   cpu_threads: int(0,)
   use_max_cpu_threads: bool
-  allow_origin: 
+  allow_origin:
     - str
   cors_policy: list(localapps|all)
