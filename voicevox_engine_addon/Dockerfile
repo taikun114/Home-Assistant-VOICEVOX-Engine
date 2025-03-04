@@ -36,6 +36,9 @@ RUN ln -s /root/.local/share /data
     wget "https://github.com/VOICEVOX/voicevox_engine/releases/download/$VERSION/voicevox_engine-linux-cpu-$ARCH_NAME-$VERSION.7z.001" -O /voicevox_engine.7z.001 \
     && 7z x /voicevox_engine.7z.001 -o$INSTALL_DIR'
 
+WORKDIR $INSTALL_DIR
+
+RUN mv linux-* voicevox-engine
 # Copy data for add-on
 COPY run.sh /
 
