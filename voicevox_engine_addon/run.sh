@@ -1,12 +1,5 @@
 #!/usr/bin/with-contenv bashio
 
-ARCH=$(uname -m)
-
-if [ "$ARCH" == "x86_64" ]; then
-  cd $INSTALL_DIR/linux-cpu-x64/
-elif [ "$ARCH" == "aarch64" ]; then
-  cd $INSTALL_DIR/linux-cpu-arm64/
-fi
 
 CPU_THREADS=$(bashio::config 'cpu_threads')
 MAX_THREADS=$(nproc --all)
