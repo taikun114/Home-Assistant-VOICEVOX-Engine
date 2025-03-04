@@ -25,9 +25,6 @@ RUN python3 -m pip install -r /requirements.txt
 
 RUN /bin/bash -c 'set -ex && \
     ARCH=$(uname -m) && \
-
-
-RUN ln -s /root/.local/share /data
     case "$ARCH" in \
         x86_64) ARCH_NAME="x64" ;; \
         aarch64) ARCH_NAME="arm64" ;; \
@@ -39,6 +36,9 @@ RUN ln -s /root/.local/share /data
 WORKDIR $INSTALL_DIR
 
 RUN mv linux-* voicevox-engine
+
+RUN ln -s /root/.local/share/voicevox-engine /data
+
 # Copy data for add-on
 COPY run.sh /
 
