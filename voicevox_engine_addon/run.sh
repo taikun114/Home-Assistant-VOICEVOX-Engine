@@ -1,6 +1,6 @@
 #!/usr/bin/with-contenv bashio
 
-cd voicevox-engine
+cd $INSTALL_DIR/voicevox-engine
 
 CPU_THREADS=$(bashio::config 'cpu_threads')
 MAX_THREADS=$(nproc --all)
