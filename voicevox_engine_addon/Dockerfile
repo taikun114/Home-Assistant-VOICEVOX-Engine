@@ -25,19 +25,16 @@ RUN python3 -m pip install -r /requirements.txt
 
 RUN /bin/bash -c 'set -ex && \
     ARCH=$(uname -m) && \
-    if [ "$ARCH" == "x86_64" ]; then \
-        wget "https://github.com/VOICEVOX/voicevox_engine/releases/download/$VERSION/voicevox_engine-linux-cpu-x64-$VERSION.7z.001" -O /voicevox_engine.7z.001 \
-        && 7z x /voicevox_engine.7z.001 -o$INSTALL_DIR; \
-    elif [ "$ARCH" == "aarch64" ]; then \
-        wget "https://github.com/VOICEVOX/voicevox_engine/releases/download/$VERSION/voicevox_engine-linux-cpu-arm64-$VERSION.7z.001" -O /voicevox_engine.7z.001 \
-        && 7z x /voicevox_engine.7z.001 -o$INSTALL_DIR; \
-    else \
-        echo "$ARCH is unsupported architecture"; \
-        return -1; \
-    fi'
 
 
 RUN ln -s /root/.local/share /data
+    case "$ARCH" in \
+        x86_64) ARCH_NAME="x64" ;; \
+        aarch64) ARCH_NAME="arm64" ;; \
+        *) echo "$ARCH is unsupported architecture" && exit 1 ;; \
+    esac && \
+    wget "https://github.com/VOICEVOX/voicevox_engine/releases/download/$VERSION/voicevox_engine-linux-cpu-$ARCH_NAME-$VERSION.7z.001" -O /voicevox_engine.7z.001 \
+    && 7z x /voicevox_engine.7z.001 -o$INSTALL_DIR'
 
 # Copy data for add-on
 COPY run.sh /
