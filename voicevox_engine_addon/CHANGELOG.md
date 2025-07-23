@@ -2,6 +2,9 @@
 **English** | [日本語](https://github.com/taikun114/Home-Assistant-VOICEVOX-Engine/blob/dev/docs/CHANGELOG-ja.md)
 
 ## 1.3.0
+- Same as 1.3.0-b1
+  - Update VOICEVOX Engine version to 0.24.1
+
 ### 1.3.0-b1
 - Update VOICEVOX Engine version to 0.24.1
 
