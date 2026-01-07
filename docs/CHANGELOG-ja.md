@@ -1,6 +1,9 @@
 # VOICEVOX Engine Addon 変更ログ
 [English](/voicevox_engine_addon/CHANGELOG.md) | **日本語**
 
+## 1.5.0
+- VOICEVOX エンジンのバージョンを0.25.1に更新
+
 ## 1.4.0
 - VOICEVOX エンジンのバージョンを0.25.0に更新
 
