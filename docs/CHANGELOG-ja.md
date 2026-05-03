@@ -2,6 +2,9 @@
 [English](/voicevox_engine_addon/CHANGELOG.md) | **日本語**
 
 ## 1.6.0
+- 1.6.0-b1と同じ
+  - VOICEVOX エンジンのバージョンを0.25.2に更新
+
 ### 1.6.0-b1
 - VOICEVOX エンジンのバージョンを0.25.2に更新
 
