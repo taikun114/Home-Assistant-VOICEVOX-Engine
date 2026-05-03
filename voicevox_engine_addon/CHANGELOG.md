@@ -1,6 +1,10 @@
 # VOICEVOX Engine Addon (Dev) Changelog
 **English** | [日本語](https://github.com/taikun114/Home-Assistant-VOICEVOX-Engine/blob/dev/docs/CHANGELOG-ja.md)
 
+## 1.6.0
+### 1.6.0-b1
+- Update VOICEVOX Engine version to 0.25.2
+
 ## 1.5.0
 - Same as 1.5.0-b1
   - Update VOICEVOX Engine version to 0.25.1
