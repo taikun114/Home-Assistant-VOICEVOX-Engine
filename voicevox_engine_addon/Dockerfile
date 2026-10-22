@@ -16,12 +16,8 @@ RUN apt-get update \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
 
-ENV VERSION=0.25.2
+ENV VERSION=0.26.0
 ENV INSTALL_DIR="/voicevox_engine"
-
-RUN wget "https://raw.githubusercontent.com/VOICEVOX/voicevox_engine/refs/tags/$VERSION/requirements.txt" -O /requirements.txt
-
-RUN python3 -m pip install -r /requirements.txt
 
 RUN /bin/bash -c 'set -ex && \
     ARCH=$(uname -m) && \
