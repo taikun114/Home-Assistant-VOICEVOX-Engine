@@ -1,4 +1,4 @@
-name: "VOICEVOX Engine Addon (Dev)"
+name: "VOICEVOX Engine App (Dev)"
 version: "1.7.0-b1"
 slug: "voicevox_engine_addon"
 description: "VOICEVOX Engine for Home Assistant"

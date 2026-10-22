@@ -1,9 +1,10 @@
-# VOICEVOX Engine Addon (Dev) Changelog
+# VOICEVOX Engine App (Dev) Changelog
 **English** | [日本語](https://github.com/taikun114/Home-Assistant-VOICEVOX-Engine/blob/dev/docs/CHANGELOG-ja.md)
 
 ## 1.7.0
 ### 1.7.0-b1
 - Update VOICEVOX Engine version to 0.26.0
+- Rename Add-on to App
 
 ## 1.6.0
 - Same as 1.6.0-b1

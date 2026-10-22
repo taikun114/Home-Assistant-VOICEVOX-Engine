@@ -1,9 +1,10 @@
-# VOICEVOX Engine Addon (Dev) 変更ログ
+# VOICEVOX Engine App (Dev) 変更ログ
 [English](/voicevox_engine_addon/CHANGELOG.md) | **日本語**
 
 ## 1.7.0
 ### 1.7.0-b1
 - VOICEVOX エンジンのバージョンを0.26.0に更新
+- アドオンの呼称をアプリに変更
 
 ## 1.6.0
 - 1.6.0-b1と同じ
