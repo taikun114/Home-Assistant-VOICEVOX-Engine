@@ -3,7 +3,7 @@
 
 ## 1.7.0
 ### 1.7.0-b1
-- Update VOICEVOX Engine version to 0.26.0
+- Update VOICEVOX Engine version to [0.26.0](https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.0)
 - Rename Add-on to App
 
 ## 1.6.0
