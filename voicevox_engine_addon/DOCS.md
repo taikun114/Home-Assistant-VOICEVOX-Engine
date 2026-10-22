@@ -1,33 +1,33 @@
-# Home Assistant VOICEVOX Engine Addon
+# Home Assistant VOICEVOX Engine App
 **English** | [日本語](https://github.com/taikun114/Home-Assistant-VOICEVOX-Engine/blob/main/docs/DOCS-ja.md)
 
-This is an add-on to run the Japanese text-to-speech engine [VOICEVOX Engine](https://github.com/VOICEVOX/voicevox_engine) in Home Assistant.
+This is an app to run the Japanese text-to-speech engine [VOICEVOX Engine](https://github.com/VOICEVOX/voicevox_engine) in Home Assistant.
 
 Using it with [VOICEVOX TTS](https://github.com/taikun114/VOICEVOX-TTS-for-Home-Assistant) custom integration, you can use Japanese TTS with VOICEVOX in Home Assistant.
 
 
 ## Install
 >[!NOTE]
-> Home Assistant OS or Home Assistant Supervised is required to run add-ons.\
-> If you are running Home Assistant Core or Home Assistant Container, you cannot use add-ons.
+> Home Assistant OS or Home Assistant Supervised is required to run apps.\
+> If you are running Home Assistant Core or Home Assistant Container, you cannot use apps.
 
-To install the VOICEVOX Engine Addon, you will need to add a repository. Click the button below or add the repository manually.
+To install the VOICEVOX Engine App, you will need to add a repository. Click the button below or add the repository manually.
 
 [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Ftaikun114%2FHome-Assistant-VOICEVOX-Engine)
 
 To manually add a repository, follow these steps.
-1. Go to `Settings` → `Add-ons` in the Home Assistant.
-2. Open the `ADD-ON STORE` in the lower right corner.
+1. Go to `Settings` → `Apps` in the Home Assistant.
+2. Open the `Install apps` in the lower right corner.
 3. Click the upper right `...`, then click `Repositories`.
 4. In the `Add` section, enter the following URL:\
    `https://github.com/taikun114/Home-Assistant-VOICEVOX-Engine`
 
-Once you have added the repository, reload the page and click the `VOICEVOX Engine Addon` that appears to install it.
+Once you have added the repository, reload the page and click the `VOICEVOX Engine App` that appears to install it.
 
-After installing the add-on, click `START` to launch the VOICEVOX Engine with default settings.
+After installing the app, click `START` to launch the VOICEVOX Engine with default settings.
 
 > [!TIP]
-> You can install the development version of the add-on by adding `#dev` to the end of the repository URL (`https://github.com/taikun114/Home-Assistant-VOICEVOX-Engine#dev`) or by clicking the button below.
+> You can install the development version of the app by adding `#dev` to the end of the repository URL (`https://github.com/taikun114/Home-Assistant-VOICEVOX-Engine#dev`) or by clicking the button below.
 >
 > [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Ftaikun114%2FHome-Assistant-VOICEVOX-Engine%23dev)
 
@@ -35,11 +35,11 @@ After installing the add-on, click `START` to launch the VOICEVOX Engine with de
 ## How to use
 See the [VOICEVOX Engine Repository](https://github.com/VOICEVOX/voicevox_engine) and the [VOICEVOX Engine API Documentation](https://voicevox.github.io/voicevox_engine/api/) page for how to use the VOICEVOX Engine.
 
-You can also view the API documentation by accessing `http://ServerIPAddress:50021/docs` while the add-on is running (you can also open it by clicking `OPEN WEB UI` and then clicking `API ドキュメント` from the page that opens).
+You can also view the API documentation by accessing `http://ServerIPAddress:50021/docs` while the app is running (you can also open it by clicking `OPEN WEB UI` and then clicking `API ドキュメント` from the page that opens).
 
 
 ## Configuration
-This section describes the options. All options require a restart of the add-on for the changes to take effect.
+This section describes the options. All options require a restart of the app for the changes to take effect.
 
 ### CPU Threads
 You can specify the number of CPU threads used during voice synthesis. The default is `0`, which means half of the number of CPU threads available will be used.
