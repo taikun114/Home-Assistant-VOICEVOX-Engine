@@ -2,7 +2,6 @@
 **English** | [日本語](https://github.com/taikun114/Home-Assistant-VOICEVOX-Engine/blob/main/docs/CHANGELOG-ja.md)
 
 ## 1.7.0
-### 1.7.0-b1
 - Update VOICEVOX Engine version to [0.26.0](https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.0)
 - Rename Add-on to App
 
