@@ -1,6 +1,10 @@
 # VOICEVOX Engine App (Dev) 変更ログ
 [English](/voicevox_engine_addon/CHANGELOG.md) | **日本語**
 
+## 1.8.0
+- 1.8.0-b1と同じ
+  - VOICEVOX エンジンのバージョンを[0.26.1](https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1)に更新
+
 ### 1.8.0-b1
 - VOICEVOX エンジンのバージョンを[0.26.1](https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.26.1)に更新
 
