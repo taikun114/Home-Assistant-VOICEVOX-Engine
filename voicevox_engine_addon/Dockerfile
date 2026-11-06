@@ -16,7 +16,7 @@ RUN apt-get update \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
 
-ENV VERSION=0.26.0
+ENV VERSION=0.26.1
 ENV INSTALL_DIR="/voicevox_engine"
 
 RUN /bin/bash -c 'set -ex && \
